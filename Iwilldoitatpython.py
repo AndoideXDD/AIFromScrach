@@ -24,9 +24,7 @@ class AI:
 			self.result = 0
 
 			for i in range(len(self.inputslist)):
-
-	   			self.result =self.result + self.weights[i]*self.inputslist[i]
-
+				self.result =self.result + self.weights[i]*self.inputslist[i]	   
 			self.result = self.result + self.parameter
 
 		def resultAI(self):
