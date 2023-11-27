@@ -3,7 +3,7 @@ from math import e
 from statistics import mean
 from time import sleep
 
-
+# Random coment
 class AI:
 
 	class weight:
